@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #D32F2F;
+  --color-brand-black: #0A0A0A;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+}
+
+body {
+  background-color: var(--color-brand-black);
+  color: white;
+  font-family: var(--font-sans);
+  text-transform: lowercase;
+}
